@@ -1,1 +1,3 @@
 # mind2brain
+
+Which parts of the mind align with the brain? The goal of this project was to compare text-based representations of psychological entities in terms of their performance in predicting brain activation. The brain activations are coordinates reported in over 10,000 neuroimaging articles that were mapped to a human brain atlas. Tokens were pulled from select ontologies and the Research Domain Criteria (RDoC) framework. Features were derived from the full texts of articles and included the topics of latent Dirichlet allocation (LDA or labeled-LDA), tokens summed by RDoC constructs or another clustering scheme (bag-of-entities), and tokens by themselves (bag-of-words). 
